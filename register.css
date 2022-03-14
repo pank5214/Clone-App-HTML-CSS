@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.container{
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #293f50;
+    color: #648880;
+    margin:-21px 0;
+}
+.logo{
+    margin: 0 25%;
+    height: 190px;
+}
+.grid{
+    width: 960px;
+    padding: 20px 0 22px 0;
+}
+.grid h1{
+    float: left;
+    margin: 0 auto;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0; 
+}
+.grid h1 a{
+    color: white;
+}
+h1 a:hover {
+    color: #648880;
+}
+#date{
+    text-align: right;
+    margin: 38px 0 -38px 0;
+    font-size: 21px;
+    line-height: 22px;
+    word-spacing: normal;
+    font-weight: 300;
+}
+nav{
+    text-align: right;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 22px;
+    word-spacing: 0.5px;
+    font-weight: 400;
+}
+nav ul li{
+    display: inline-block;     
+    margin: 40px 5px;
+}
+nav ul li a{
+    color: white;
+}
+nav ul li a:hover {
+    color: #648880;
+}
+.box1{
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    text-align: center;
+    height: 205px;
+    min-width: 960px;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.box1 h1{
+    margin-bottom: 0;
+    font-size: 36px;
+    line-height: 44px;
+    word-spacing: normal;
+    font-weight: 300;
+}
+.box1 p{
+    margin-bottom: 22px;
+    font-size: 21px;
+    line-height: 33px;
+    word-spacing: normal;
+    font-weight: 300;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 0 25%;
+    color: #648880;
+    height: 572px;
+    margin-top: 61px;
+    font-size: 16px;
+    line-height: 22px;
+    word-spacing: normal;
+    font-weight: 300;
+}
+h2{
+    font-size: 24px;
+    line-height: 44px;
+    word-spacing: normal;
+    font-weight: 300;
+}
+h5{
+    margin-top: -22px;
+    margin-bottom: 22px;
+    color: #a9b2b9;
+    font-size: 14px;
+    line-height: 22px;
+    word-spacing: normal;
+    font-weight: 400;
+}
+h4{
+    font-size: 18px;
+    line-height: 22px;
+    word-spacing: normal;
+    font-weight: 300;
+}
+.registration{
+    color: #648880;
+    padding-left: 22px;
+    padding-right: 128px;
+    margin-right: 4px;
+}
+.registration p{
+    margin-bottom: 4px;
+}
+.registration select{
+    height: 34px;
+    width: 60px;
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: #648880;
+    background-color: white;
+    display: block;
+    margin: 5px 0 27px 0;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.registration textarea{
+    height: 78px;
+    width: 160%;
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #648880;
+    display: block;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.row{
+    width: 155%;
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #648880;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn {
+    border: 0;
+    background:#648880;
+    padding: 11px 30px;
+    font: 400 14px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: .5px;
+}
+.footer{
+    background-color: #293f50;
+    padding: 25px 0;
+}
+.section{
+    margin: 0 25%;
+}
+.footer{
+    background-color: #293f50;
+    padding: 25px 0;
+}
+.section{
+    margin: 0 25%;
+}
+.footer p{
+    color: #648880;
+    float: left;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: normal;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.section nav{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: normal;
+    font-weight: 300;
+    padding: 0;
+    margin: -35px 0;
+}
